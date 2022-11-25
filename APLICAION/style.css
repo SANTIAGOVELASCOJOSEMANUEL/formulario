@@ -1,0 +1,125 @@
+@media screen and (max-width: 980px){
+    #contenedor{
+        width: 90%;
+    }
+    #contenido{
+        width: 60%;
+    }
+    #barra_lateral{
+        width:30%;
+    }
+}
+  * {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-size: 1300px 700px;
+    background-blend-mode: lighten;
+    background-image: url("img.png");
+    text-align: center;
+    background-repeat: no-repeat;
+    
+}
+
+h1,p{
+    color:white;
+}
+.container {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    background-color:rgba(0, 0, 0, .4);
+    box-shadow: 0 0 10px #00ffee, 0 0 40px red;
+    width: 300px;
+    height: 250px;
+}
+
+.container > h1 {
+    display: inline-block;
+    font-size: 30px;
+    letter-spacing: 3px;
+    border-bottom: 3px solid #00DD00;
+    margin-bottom: 30px;
+    padding: 12px 0px;
+}
+
+.box {
+   
+    border-bottom: 5px solid #00ffee;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.text{
+    border-top: 5px solid #00DD00;
+    border-bottom: 5px solid #00DD00;
+    border-radius: 15px;
+    border-right: none;
+    border-left: none;
+    color: black;
+    font-family: cassie;
+    font-size: 16px;
+    padding: 10px;
+    text-decoration: ;
+    text-align: center;
+    outline:none;
+    background: none;
+    /*box-shadow: 0 0 10px #00DD00, 0 0 40px #00DD00;*/
+}
+.text:hover {
+    border: none;
+    color: #00DD00;
+    background-color: rgba(0, 0, 0, .4);
+    box-shadow: 0 0 10px #00DD00, 0 0 40px #00DD00;
+}
+
+.box > input {
+    height: 100%;
+    width: 75%;
+    color: blue;
+    border: none;
+    outline:none;
+    margin: 0px;
+    padding: 10px 23px 10px 5px;
+    font-size: 20px;
+    background: none;
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    width: 40%;
+    margin: 12px 0px;
+    padding: 6px;
+    border-radius: 10px;
+    border: 2px solid #00DD00;
+    background: none;
+    color:;
+    font-weight: bold;
+}
+.box i {
+    padding: 10px 5px;
+    text-align: center;
+}
+
+#icon2 {
+    padding: 7px;
+}
+
+.btn:hover {
+    border: none;
+    color: #00DD00;
+    background-color: ;
+    box-shadow: 0 0 10px #00DD00, 0 0 40px #00DD00;
+}
+.box:hover {
+    color: #00DD00;
+    background-color: ;
+    box-shadow: 0 0 10px #00DD00, 0 0 40px #00DD00;
+}
+
+.box input:hover {
+    color: #00DD00;
+}
